@@ -1,0 +1,31 @@
+id;city;street;house_number;postal_code;price;surface;unit;extra_details;sold;rented;temporarily_rented;image;added_on;brochure;created_at;updated_at
+1;Centrum Papendrecht;Meentpassage;NULL;NULL;NULL;2200.00;m²;Units vanaf 127 m².;0;0;0;meentpassage_papendrecht.jpg;NULL;NULL;NULL;NULL
+2;Centrum Weert;Muntpassage;2;NULL;NULL;175.00;m²;Hoek winkelpassage (zijde Nieuwe Markt).;0;1;0;Muntpassage_2.jpg;NULL;NULL;NULL;NULL
+3;Eindhoven Zuidwest;Kastelenplein;NULL;NULL;NULL;910.00;m²;Units van diverse afmetingen. Betreft tijdelijke verhuur.;0;0;0;Winkelcentrum_Kastelenplein_Eindhoven.jpg;NULL;Huurinformatie_winkelruimten_winkelcentrum_kastelenplein_te_Eindhoven.pdf;NULL;NULL
+4;Centrum Vught;Secr. van Rooijstraat;2B;NULL;NULL;151.00;m²;Horecapand.;1;0;0;Secr._van_Rooijstraat_2B.jpg;NULL;verhuurbrochure-Secr._van_Rooijstraat-Vught.pdf;NULL;NULL
+5;Centrum Sprang Capelle;Raadhuisplein;29B;NULL;1625.00;150.00;m² b.v.o.;Pand ligt tussen Kruidvat en Plus Supermarkt. Prijs is per maand. ;0;1;0;Raadhuisplein_29B_2.png;NULL;verhuurbrochure_Raadhuisplein_29B_-_Sprang_Capelle.pdf;NULL;NULL
+6;Centrum Cuijk;Maasburg;4;NULL;NULL;93.00;m²;Het pand ligt t.o.v Action, Coop en naast HEMA en Livera.;0;0;0;Maasburg4Cuijk.jpg;NULL;Verkorte_vrijblijvende_projectinfo_Maasburg_4.pdf;NULL;NULL
+7;Centrum Vught;Vliertstraat;11;NULL;NULL;204.00;m²;Winkelgevel van ca 12 strekkende meter.;0;0;0;Vliertstraat_11_vught.jpg;NULL;verhuurbrochure-Vliertstraat_11-Vught.pdf;NULL;NULL
+8;Weert;Nieuwe Markt;22;NULL;NULL;973.00;m²;Aan de nieuwe Marktzijde van de Muntpassage. Opening 3e kwartaal 2020.;0;1;0;Nieuwe_Markt_22.jpg;NULL;NULL;NULL;NULL
+9;Weert;Muntpassage;33;NULL;NULL;212.00;m² b.v.o.;Centraal in de winkel passage. Opening 1e kwartaal 2020.;0;1;0;muntpassage_33.jpg;NULL;NULL;NULL;NULL
+10;Weert;Muntpassage;30;NULL;NULL;345.00;m² b.v.o.;Centraal in de winkel passage. Opening 1e kwartaal 2020.;0;1;0;MuntPassage_30.jpg;NULL;NULL;NULL;NULL
+11;Weert;Muntpassage;26;NULL;NULL;443.00;m² b.v.o.;Centraal in de winkel passage;0;1;0;muntpassage_26_weert.jpg;NULL;NULL;NULL;NULL
+12;Woensel;Winkelcentrum Woensel;NULL;NULL;NULL;58.00;m²;Ligging nabij overdekte hoofdentree.  Oppervlakte is 58 m² begane grond. 24 m² entresol. Huurprijs op aanvraag.;0;0;0;Woensel_416.png;NULL;verhuurbrochure_Woensel_416-Eindhoven.pdf;NULL;NULL
+15;Centrum Hilvarenbeek;Gelderstraat;21-23;NULL;NULL;262.00;m² b.v.o.;Huurprijs op aanvraag;1;0;0;Gelderstraat_Hilvarenbeek_21-23.png;NULL;verhuurbrochure_Gelderstraat_21-23_-_Hilvarenbeek-14-12-2020.pdf;NULL;NULL
+16;Centrum Weert;Muntpassage;NULL;NULL;200.00;3100.00;m²;Units van diverse afmetingen. Afhankelijk van de oppervlakte en locatie. Huurprijs is tussen de €200 en €300 per m² per jaar excl. btw + PDV.;0;0;0;Bristol_nieuwe_markt_22.jpg;NULL;Weert_Munt_verhuurbrochure_DEF_-_versie19619.pdf;NULL;NULL
+17;Centrum Valkenswaard;Corridor;17 en 17A;NULL;160.00;146.00;m²;Oppervlakte is 146 m², respectievelijk 130 m². Units zijn samen te voegen tot winkelunit van ca 276 m² € 180,-/m2 , bij samenvoeging €160,- m² excl. btw ;0;0;0;Corridor_17_Valkenswaard.jpg;NULL;verhuurbrochure_Corridor_17en_17a-Valkenswaard.pdf;NULL;NULL
+18;Centrum Vught;Raadhuisstraat;3BII;NULL;NULL;93.00;m²;Karakteristiek gebouwd winkelpand;0;1;0;Raadhuisstraat_3B_II.jpg;NULL;verhuurbrochure_Raadhuisstraat_3B_-_Vught_-_Versie_2.pdf;NULL;NULL
+19;Centrum Vught;Raadhuisstraat;3;NULL;NULL;284.00;m²;Karakteristiek gebouw winkelpand;0;1;0;Raadhuisstraat_3.jpg;NULL;verhuurbrochure_Raadhuisstraat_3_-_Vught.pdf;NULL;NULL
+20;Centrum Cuijk, Winkelcentrum Maasburg;Maasburg;5;NULL;NULL;134.50;m²;Brede pui. Huurprijs op aanvraag.;0;1;0;maasburg_5.jpg;NULL;NULL;NULL;NULL
+21;Centrum gebied Someren;Verdonckstraat;1B;NULL;NULL;165.00;m² b.v.o.;Parkeergelegenheid voor de deur. Huurprijs op aanvraag.;0;1;0;NULL;NULL;NULL;NULL;NULL
+22;Eindhoven;Woensel;40a;NULL;NULL;162.00;m² b.v.o.;In het hart van het winkelcentrum Woensel nabij Hema. Ook te huren in combinatie met nr 40c. Huurprijs op aanvraag.;0;1;0;Woensel_40a.jpg;NULL;NULL;NULL;NULL
+23;Eindhoven;Woensel;40c;NULL;NULL;342.00;m²;In het hart van het winkelcentrum Woensel. ca 142 m² bvo en 342m² bvo verdieping. Ook te huren in combinatie met nr 40a. Ook verdieping separaat mogelijk. Het is een hoekpand.;0;1;0;Woensel_40c.jpg;NULL;NULL;NULL;NULL
+24;Centrumgebied Breda;Keizerstraat;1 t/m 1D;NULL;NULL;2000.00;m² b.v.o.;Unieke locatie. Ook in kleinere units beschikbaar. Huurprijs op aanvraag.;0;0;0;Keizerstraat_1.jpg;NULL;NULL;NULL;NULL
+25;Centrumgebied Budel;Nieuwstraat;3;NULL;NULL;228.00;m²;Brede pui. Huurprijs op aanvraag.;0;1;0;Budel_Nieuwstraat_3.jpg;NULL;NULL;NULL;NULL
+26;Centrum Oss;Burgwal;21;NULL;NULL;805.50;m² b.v.o.;Aantrekkelijke huurprijs. Aantrekkelijke huurprijs op aanvraag.;0;0;0;burgwal_21.jpg;NULL;NULL;NULL;NULL
+27;Winkelcentrum Maasburg, centrum Cuijk;Maasburg;2;NULL;NULL;115.00;m²;Brede etalage. Huurprijs op aanvraag.;0;0;0;maasburg_2.jpg;NULL;NULL;NULL;NULL
+28;Centrum Helmond;Markt;15;NULL;NULL;69.00;m²;Gelegen op hoek Veestraat naast Van Haren. Huurprijs op aanvraag.;0;0;0;Markt_15.jpg;NULL;NULL;NULL;NULL
+29;Dongen;Hoge Ham;159;NULL;NULL;580.00;m² b.v.o.;Mooie hoeklocatie met parkeergelegenheid. Oppervlakte is eventueel te splitsen. Huurprijs op aanvraag.;1;0;0;hoge_ham_159.jpg;NULL;NULL;NULL;NULL
+30;Centrum Papendrecht;Brederodelaan;46;NULL;NULL;141.00;m² b.v.o.;;0;1;0;Brederodelaan_46.jpg;NULL;NULL;NULL;NULL
+31;Centrum Papendrecht;Meentpassage;6;NULL;NULL;156.00;m² b.v.o.;Gelegen naast JUMBo en t.o Bruna en Etos;0;1;0;Meentpassage_6.jpg;NULL;NULL;NULL;NULL
+32;Centrum Cuijk;Maasburg ;38A;NULL;NULL;97.5;m² b.v.o.;;0;1;0;Cuijk_maasburg_38A.jpg;NULL;NULL;NULL;NULL

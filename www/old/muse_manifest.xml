@@ -1,0 +1,1069 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jpsretail.nl" resolutions="1x" timestamp="1631893135957">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_default.css" crc="4004098970" ref="jps-retail-services-winkelpand-verhuur--aanbod:index:jps-retail-services-verhuur--nieuws"/>
+    <file name="nomq_preview_master_default.css" crc="4257663305" ref="jps-retail-services-winkelpand-verhuur--aanbod:index:jps-retail-services-verhuur--nieuws"/>
+    <file name="master_contact-2.css" crc="402764531" ref="contact"/>
+    <file name="nomq_preview_master_contact-2.css" crc="473782687" ref="contact"/>
+    <file name="master_actual-default.css" crc="4110303956" ref="contact:jps-retail-disclaimer:jps-retail-services-winkelpand-verhuur--aanbod:index:jps-retail-services-verhuur--nieuws"/>
+    <file name="nomq_preview_master_actual-default.css" crc="3824153115" ref="contact:jps-retail-disclaimer:jps-retail-services-winkelpand-verhuur--aanbod:index:jps-retail-services-verhuur--nieuws"/>
+    <file name="contact.css" crc="280147329" ref="contact"/>
+    <file name="nomq_contact.css" crc="475240991" ref="contact"/>
+    <file name="jps-retail-disclaimer.css" crc="409647863" ref="jps-retail-disclaimer"/>
+    <file name="nomq_jps-retail-disclaimer.css" crc="3793008145" ref="jps-retail-disclaimer"/>
+    <file name="jps-retail-services-winkelpand-verhuur--aanbod.css" crc="4283761388" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="nomq_jps-retail-services-winkelpand-verhuur--aanbod.css" crc="4057589463" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="index.css" crc="292972325" ref="index"/>
+    <file name="nomq_index.css" crc="386015362" ref="index"/>
+    <file name="jps-retail-services-verhuur--nieuws.css" crc="4234155534" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="nomq_jps-retail-services-verhuur--nieuws.css" crc="405224547" ref="jps-retail-services-verhuur--nieuws"/>
+  </folder>
+  <folder name="assets">
+    <file name="a4-verhuurbrochure-woensel-40a-c-31-10-2017.pdf" crc="3927051712" seo="true" mt="1509654363000"/>
+    <file name="a4-verhuurbrochure-keizerstraat-1-tm-1d----breda.pdf" crc="4025356684" seo="true" mt="1516900534000"/>
+    <file name="a4-verhuurbrochure-nieuwstraat-3---budel.pdf" crc="4190976949" seo="true" mt="1524309525000"/>
+    <file name="verkorte-vrijblijvende-informatie-zwaanstraat-44.pdf" crc="4194275238" seo="true" mt="1541341427000"/>
+    <file name="a4-verhuurbrochure-postelstraat-29---someren-13-02-2018.pdf" crc="3802534821" seo="true" mt="1518618873000"/>
+    <file name="a4-verhuurbrochure-burgwal-21---oss.pdf" crc="4062350528" seo="true" mt="1514920452000"/>
+    <file name="a4-verhuurbrochure-maasburg-2---cuijk.pdf" crc="3983016150" seo="true" mt="1542914016000"/>
+    <file name="a4-verhuurbrochure-verdonckstraat-1b---someren-15-05-2018.pdf" crc="321279167" seo="true" mt="1526496907000"/>
+    <file name="a4-verhuurbrochure-maasburg-2---cuijk2.pdf" crc="4286823482" seo="true" mt="1543433339000"/>
+    <file name="seo-for-webpages-v7.0.0.mulib" crc="4135189300" seo="true" mt="1548959502000"/>
+    <file name="jps-retail-services.png" crc="135057813" seo="true" mt="1548959681000"/>
+    <file name="a4-verhuurbrochure-raadhuisstraat-3b---vught.pdf" crc="3940576655" seo="true" mt="1550937809000"/>
+    <file name="a4-verhuurbrochure-raadhuisstraat-3---vught.pdf" crc="100475372" seo="true" mt="1550937780000"/>
+    <file name="a4-verhuurbrochure-corridor-17en-17a-valkenswaard.pdf" crc="4245949747" seo="true" mt="1554904010000"/>
+    <file name="weert-munt-verhuurbrochure-def---versie19619.pdf" crc="357660506" seo="true" mt="1560970337000"/>
+    <file name="verkorte-vrijblijvende-informatie-hoge-ham-159.pdf" crc="4220070667" seo="true" mt="1542912830000"/>
+    <file name="a4-verhuurbrochure-raadhuisstraat-3b---vught---versie-2.pdf" crc="345059931" seo="true" mt="1561723308000"/>
+    <file name="a4-verhuurbrochure-gelderstraat-21-23---hilvarenbeek.pdf" crc="4030689432" seo="true" mt="1564060909000"/>
+    <file name="a4-verhuurbrochure-woensel-416-eindhoven.pdf" crc="4048251528" seo="true" mt="1564676246000"/>
+    <file name="verkorte-vrijblijvende-informatie-markt-15.pdf" crc="3877147781" seo="true" mt="1568813785000"/>
+    <file name="a4-verhuurbrochure-vliertstraat-11-vught.pdf" crc="3776050818" seo="true" mt="1587572698000"/>
+    <file name="verkorte-vrijblijvende-projectinfo-maasburg-4.pdf" crc="3851008692" seo="true" mt="1594310732000"/>
+    <file name="a4-verhuurbrochure-burgwal-21---oss2.pdf" crc="4024323048" seo="true" mt="1598286782000"/>
+    <file name="a4-verhuurbrochure-raadhuisplein-29b---sprang-capelle.pdf" crc="189300346" seo="true" mt="1604500326000"/>
+    <file name="a4-verhuurbrochure-gelderstraat-21-23---hilvarenbeek-14-12-2020.pdf" crc="279213094" seo="true" mt="1609151203000"/>
+    <file name="a4-verhuurbrochure-secr.-van-rooijstraat-vught.pdf" crc="211038812" seo="true" mt="1613573123000"/>
+    <file name="huurinformatie-winkelruimten-winkelcentrum-kastelenplein-te-eindhoven.pdf" crc="164467802" seo="true" mt="1618673866000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="museutils.js" crc="3939489907" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="museconfig.js" crc="3936894949" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="jquery.watch.js" crc="522499760" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="webpro.js" crc="3856315280" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="touchswipe.js" crc="3888935200" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws"/>
+    <file name="form_check.php" crc="4050423521" ref="phone>index"/>
+    <file name="form_process.php" crc="3946589668" ref="phone>index"/>
+    <file name="form-u67447.php" crc="3851531430" ref="phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="phone>index"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="require.js" crc="4177726516" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="form-u15281.php" crc="56213792" ref="phone>contact"/>
+    <file name="form-u71944.php" crc="407931787" ref="tablet>index"/>
+    <file name="form-u72971.php" crc="4221151845" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="form-u12145.php" crc="114795834" ref="tablet>contact"/>
+    <file name="form-u9565.php" crc="512187259" ref="index"/>
+    <file name="form-u9623.php" crc="4237794624" ref="contact"/>
+  </folder>
+  <folder name="images">
+    <file name="jps retail services98x38.jpg" crc="4144946079" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="noun_1324698 (roze).png" crc="247723692" seo="true" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="noun_686738 roze.png" crc="215695117" seo="true" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="dame roltrap.jpg" crc="4017858167" seo="true" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer"/>
+    <file name="grand-palace-2.jpg" crc="425774878" seo="true" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="manhattan2-336708.jpg" crc="510005975" seo="true" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:phone>contact:phone>jps-retail-disclaimer:tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>contact:tablet>jps-retail-disclaimer:index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>contact:tablet>index:tablet>contact:index:contact"/>
+    <file name="image005.jpg" crc="113504737" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image009.jpg" crc="231669634" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pexels-photo-288477.jpg" crc="412565240" seo="true" ref="phone>index:tablet>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="zeemand-u15719-fr.jpg" crc="345874435" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr.jpg" crc="175017537" ref="phone>index"/>
+    <file name="zeemand-u15719-fr2.jpg" crc="308063347" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr2.jpg" crc="65954253" ref="phone>index"/>
+    <file name="image009-u15675-fr.jpg" crc="352253599" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr3.jpg" crc="3893961806" ref="phone>index"/>
+    <file name="image009-u15675-fr2.jpg" crc="4008817746" ref="phone>index"/>
+    <file name="pexels-photo-288477-u15679-fr.jpg" crc="215766549" ref="phone>index"/>
+    <file name="zeemand-u15719-fr3.jpg" crc="352725405" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr4.jpg" crc="504978802" ref="phone>index"/>
+    <file name="image005-u15674-fr.jpg" crc="88081075" ref="phone>index"/>
+    <file name="image009-u15675-fr3.jpg" crc="526299689" ref="phone>index"/>
+    <file name="pexels-photo-288477-u15679-fr2.jpg" crc="484829285" ref="phone>index"/>
+    <file name="zeemand-u15719-fr4.jpg" crc="336147219" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr5.jpg" crc="4177920446" ref="phone>index"/>
+    <file name="image005-u15674-fr2.jpg" crc="39618177" ref="phone>index"/>
+    <file name="image009-u15675-fr4.jpg" crc="3843001830" ref="phone>index"/>
+    <file name="pexels-photo-288477-u15679-fr3.jpg" crc="391702609" ref="phone>index"/>
+    <file name="zeemand-u15719-fr5.jpg" crc="333588045" ref="phone>index"/>
+    <file name="welten juweliers-u152694-fr6.jpg" crc="4243252827" ref="phone>index"/>
+    <file name="meentpassage papendrecht-u159692-fr.jpg" crc="4229850622" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 2 verhuurd-u152551-fr.jpg" crc="4130176228" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="winkelcentrum kastelenplein eindhoven.jpg" crc="3912074017" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="rood.png" crc="4015830313" seo="true" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="secr van rooijstraat 2b-u143096-fr.jpg" crc="225082148" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisplein 29b-u138431-fr.jpg" crc="3801177013" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="maasburg4cuijk-u129507-fr.jpg" crc="4044855806" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="vliertstraat 11 vught-u123418-fr.jpg" crc="4239010695" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="nieuwe markt 22 verhuurd-u111508-fr.jpg" crc="4079023221" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u111498.png" crc="4224572231" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="norah verhuurd-u105614-fr.jpg" crc="449484259" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u105602.png" crc="398428624" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u97409.png" crc="323074368" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="gelderstraat hilvarenbeek 21-23png-u92868-fr.jpg" crc="4064156540" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="weert centrum-u79271-fr.jpg" crc="488388736" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="corridor 17 valkenswaard-u59050-fr.jpg" crc="437426741" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u45718.png" crc="3795110348" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3 verhuurd-u45757-fr.jpg" crc="51571899" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="maasburg2-u15822-fr.jpg" crc="4085480193" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="8bitsomeren.jpg" crc="4290981426" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="woensel 40a tijdelijk verhuurd-u15836.png" crc="4010357106" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u15854.png" crc="107628972" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180113_160203_resized-u15860-fr.jpg" crc="4092028668" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="budel-u15894-fr.jpg" crc="393818667" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="oss-u15897-fr.jpg" crc="4103981441" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180824_114930_resized-u15920-fr.jpg" crc="122963236" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u15946.png" crc="73313453" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180821_111738_resized-u15947-fr.jpg" crc="528597322" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1114982.png" crc="4224572231" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1056022.png" crc="398428624" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u974092.png" crc="323074368" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="corridor 17 valkenswaard-u59050-fr2.jpg" crc="4169390527" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u457182.png" crc="3885494105" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3 verhuurd-u45757-fr2.jpg" crc="338612445" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="maasburg2-u15822-fr2.jpg" crc="3790384371" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u158362.png" crc="516424487" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u158542.png" crc="479954258" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180113_160203_resized-u15860-fr2.jpg" crc="3774393115" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="budel-u15894-fr2.jpg" crc="184199852" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="oss-u15897-fr2.jpg" crc="3909264790" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180824_114930_resized-u15920-fr2.jpg" crc="4287434943" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u159462.png" crc="4272445870" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180821_111738_resized-u15947-fr2.jpg" crc="382471237" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="zeemand-u152497-fr.jpg" crc="246147971" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="welten juweliers-u152506-fr.jpg" crc="3941969790" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="de meent papendrecht.jpg" crc="4151810792" ref="phone>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="bakkerij leo geerts naar sprang capelle.jpg" crc="3852333139" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="rituals.jpg" crc="3902178577" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="raadhuisstraat 3b ii verhuurd.png" crc="138006894" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="bristol logo.jpg" crc="143440892" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="mc company logo.jpg" crc="4026897514" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="shoeby logo2.jpg" crc="4069627015" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="norah.jpg" crc="3931924203" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="weert centrum.jpg" crc="73758052" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="corridor 17 valkenswaard.jpg" crc="19782880" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="raadhuisstraat 3.jpg" crc="4216243720" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="fashion store.jpg" crc="4182224508" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="img-20181109-wa0005.jpg" crc="4142131927" ref="phone>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="20181105_121605_resized.jpg" crc="4216196853" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="artist impression wcw40 - 1.jpg" crc="4125388451" ref="phone>jps-retail-services-verhuur--nieuws:tablet>jps-retail-services-verhuur--nieuws:jps-retail-services-verhuur--nieuws">
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+    </file>
+    <file name="zeemand-u152497-fr2.jpg" crc="483230682" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="welten juweliers-u152506-fr2.jpg" crc="11806576" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="de meent papendrecht-u152529-fr.jpg" crc="441476673" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="bakkerij leo geerts naar sprang capelle-u147031-fr.jpg" crc="488228913" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u120778-fr.png" crc="243130784" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="weert centrum-u79256-fr.jpg" crc="381016802" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="corridor 17 valkenswaard-u60789-fr.jpg" crc="76365607" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3-u47376-fr.jpg" crc="25398830" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="fashion store-u16938-fr.jpg" crc="260741737" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="img-20181109-wa0005-u16383-fr.jpg" crc="4153170820" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="20181105_121605_resized-u16382-fr.jpg" crc="3911357443" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="artist impression wcw40 - 1-u16384-fr.jpg" crc="4137820902" ref="phone>jps-retail-services-verhuur--nieuws"/>
+    <file name="final.svg" crc="133542849" seo="true" ref="phone>contact:tablet>contact">
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="final_poster_.png" crc="423522609" ref="phone>contact"/>
+    <file name="ph2pexels-photo-1095826-u16426-fr.jpg" crc="138964418" ref="phone>contact"/>
+    <file name="jps retail services.jpg" crc="28082295" seo="true" ref="tablet>index:tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="dsc_4368 (3).jpg" crc="501501219" ref="tablet>index:index:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="noun_350062 - kopie.png" crc="4197915938" seo="true" ref="tablet>index:index:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="zeemand-u12243-fr.jpg" crc="496652700" ref="tablet>index"/>
+    <file name="welten juweliers.jpg" crc="3841805927" ref="tablet>index:tablet>jps-retail-services-verhuur--nieuws:index:jps-retail-services-verhuur--nieuws">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jps retail services131x51.jpg" crc="3835796978" seo="true" ref="tablet>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dsc_4368 (3)-u12219-fr.jpg" crc="45682632" ref="tablet>index"/>
+    <file name="zeemand.jpg" crc="3883749491" ref="tablet>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="meentpassage papendrecht.jpg" crc="356156959" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="muntpassage 2 verhuurd.jpg" crc="4227691086" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="secr van rooijstraat 2b.jpg" crc="444917463" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="raadhuisplein 29b 2 verhuurd.jpg" crc="78073678" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="maasburg4cuijk.jpg" crc="129113095" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="vliertstraat 11 vught.jpg" crc="329300079" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="nieuwe markt 22 verhuurd.jpg" crc="281311379" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="muntpassage 33-u111146.png" crc="4056773144" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="norah verhuurd.jpg" crc="3891456339" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="muntpassage 30-u105137.png" crc="3855293937" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u97332.png" crc="437294806" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="gelderstraat hilvarenbeek 21-23png.jpg" crc="3845578167" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="weert centrum-u78461-fr.jpg" crc="461519645" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="corridor 17 valkenswaard-u58900-fr.jpg" crc="3788882783" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u42889.png" crc="3877271755" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3 verhuurd.jpg" crc="468603956" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="maasburg2.jpg" crc="3772938090" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="budel.jpg" crc="329931711" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="woensel 40a tijdelijk verhuurd-u12405.png" crc="148442250" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u12423.png" crc="179605929" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180113_160203_resized.jpg" crc="4172746548" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="oss.jpg" crc="337190781" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="20180824_114930_resized.jpg" crc="187440781" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="markt 15-u12515.png" crc="3924757097" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180821_111738_resized.jpg" crc="269311691" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:jps-retail-services-winkelpand-verhuur--aanbod">
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+    </file>
+    <file name="muntpassage 2 verhuurd-u152344-fr.jpg" crc="4164445972" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="winkelcentrum kastelenplein eindhoven-u149577-fr.jpg" crc="452648999" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="secr van rooijstraat 2b-u143024-fr.jpg" crc="3998939884" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisplein 29b 2 verhuurd-u138351-fr.jpg" crc="4070190645" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="maasburg4cuijk-u129444-fr.jpg" crc="4284647198" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="vliertstraat 11 vught-u123355-fr.jpg" crc="4070858544" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="nieuwe markt 22 verhuurd-u111148-fr.jpg" crc="27402561" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1111462.png" crc="246581669" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="norah verhuurd-u105141-fr.jpg" crc="362095460" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1051372.png" crc="186330125" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u973322.png" crc="91906779" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="gelderstraat hilvarenbeek 21-23png-u92805-fr.jpg" crc="4007665157" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="weert centrum-u78461-fr2.jpg" crc="383837846" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="corridor 17 valkenswaard-u58900-fr2.jpg" crc="4293732962" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u428892.png" crc="4276525209" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3 verhuurd-u42900-fr.jpg" crc="20850534" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="maasburg2-u12388-fr.jpg" crc="50380077" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="budel-u12399-fr.jpg" crc="254603299" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u124052.png" crc="3789068855" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u124232.png" crc="4137291962" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180113_160203_resized-u12429-fr.jpg" crc="387319187" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="budel-u12463-fr.jpg" crc="214736863" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="oss-u12466-fr.jpg" crc="3998629600" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180824_114930_resized-u12489-fr.jpg" crc="4111443100" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u125152.png" crc="269077179" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="20180821_111738_resized-u12516-fr.jpg" crc="526146765" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="meentpassage papendrecht-u159641-fr.jpg" crc="30522009" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="zeemand-u152334-fr.jpg" crc="223806252" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="de meent papendrecht-u152526-fr.jpg" crc="74792835" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="img-20181109-wa0005-u12888-fr.jpg" crc="55873398" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="zeemand-u152334-fr2.jpg" crc="3829051905" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="welten juweliers-u152325-fr.jpg" crc="4137422145" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="de meent papendrecht-u152526-fr2.jpg" crc="259305207" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="bakkerij leo geerts naar sprang capelle-u147004-fr.jpg" crc="3885753083" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u120572-fr.png" crc="3804869030" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="weert centrum-u78050-fr.jpg" crc="3936173035" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="corridor 17 valkenswaard-u60776-fr.jpg" crc="3961964300" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3-u47367-fr.jpg" crc="110237044" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="fashion store-u16920-fr.jpg" crc="386627275" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="img-20181109-wa0005-u12888-fr2.jpg" crc="4281462018" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="20181105_121605_resized-u12887-fr.jpg" crc="126242245" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="artist impression wcw40 - 1-u12889-fr.jpg" crc="128432693" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+    <file name="ph2pexels-photo-1095826-u12933-fr.jpg" crc="136447996" ref="tablet>contact"/>
+    <file name="funda.png" crc="4077543618" seo="true" ref="index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="final.png" crc="335816188" seo="true" ref="index:jps-retail-services-winkelpand-verhuur--aanbod:contact:jps-retail-services-verhuur--nieuws:jps-retail-disclaimer">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-services-verhuur--nieuws" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-disclaimer" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="jps-retail-services-winkelpand-verhuur--aanbod" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="pexels-photo-288477400x298.jpg" crc="3796559394" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="welten juweliers-u152587-fr.jpg" crc="4150032111" ref="index"/>
+    <file name="zeemand-u10056-fr.jpg" crc="4003809333" ref="index"/>
+    <file name="dsc_4368 (3)-u1167-fr.jpg" crc="3890186361" ref="index"/>
+    <file name="pexels-photo-288477413x308.jpg" crc="3934554259" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="zeemand-u10056-fr2.jpg" crc="437859631" ref="index"/>
+    <file name="muntpassage 33-u109788.png" crc="4056773144" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u104807.png" crc="3855293937" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u96851.png" crc="437294806" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u42005.png" crc="3877271755" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u7993.png" crc="148442250" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u8036.png" crc="179605929" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u8352.png" crc="3924757097" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1097882.png" crc="4056773144" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1048072.png" crc="3855293937" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u968512.png" crc="437294806" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u420052.png" crc="3877271755" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u79932.png" crc="148442250" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u80362.png" crc="179605929" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u83522.png" crc="3924757097" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1097883.png" crc="4056773144" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1048073.png" crc="3855293937" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u968513.png" crc="437294806" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u420053.png" crc="3877271755" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u79933.png" crc="148442250" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u80363.png" crc="179605929" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u83523.png" crc="3924757097" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1097884.png" crc="4056773144" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1048074.png" crc="3855293937" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u968514.png" crc="437294806" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u420054.png" crc="3877271755" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u79934.png" crc="148442250" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u80364.png" crc="179605929" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u83524.png" crc="3924757097" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 33-u1097885.png" crc="4056773144" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="muntpassage 30-u1048075.png" crc="3855293937" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 416-u968515.png" crc="437294806" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u420055.png" crc="3877271755" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40a tijdelijk verhuurd-u79935.png" crc="148442250" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="woensel 40c tijdelijk verhuurd-u80365.png" crc="179605929" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="markt 15-u83525.png" crc="3924757097" ref="jps-retail-services-winkelpand-verhuur--aanbod"/>
+    <file name="ph2pexels-photo-1095826.jpg" crc="4185991828" ref="contact">
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="ph2pexels-photo-1095826-u10021-fr.jpg" crc="4071135135" ref="contact"/>
+    <file name="zeemand-u151717-fr.jpg" crc="4249420858" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="zeemand-u151717-fr2.jpg" crc="3950899998" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="welten juweliers-u151705-fr.jpg" crc="4179243540" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="zeemand-u151717-fr3.jpg" crc="304815094" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="welten juweliers-u151705-fr2.jpg" crc="465754969" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="de meent papendrecht-u152515-fr.jpg" crc="3889048375" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="bakkerij leo geerts naar sprang capelle-u146922-fr.jpg" crc="356883836" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3b ii verhuurd-u120560-fr.png" crc="4207178786" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="weert centrum-u77722-fr.jpg" crc="4243603805" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="corridor 17 valkenswaard-u60616-fr.jpg" crc="435171137" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="raadhuisstraat 3-u47352-fr.jpg" crc="4164697889" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="fashion store-u16887-fr.jpg" crc="3885218466" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="img-20181109-wa0005-u10329-fr.jpg" crc="3964525" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="20181105_121605_resized-u10330-fr.jpg" crc="311525158" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="artist impression wcw40 - 1-u10328-fr.jpg" crc="3831288810" ref="jps-retail-services-verhuur--nieuws"/>
+    <file name="fashion store-u16887-fr2.jpg" crc="470955814" ref="jps-retail-services-verhuur--nieuws"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="master_actual-default.css" crc="4176084782" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>jps-retail-disclaimer:tablet>index"/>
+      <file name="nomq_preview_master_actual-default.css" crc="4292037292" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod:tablet>jps-retail-services-verhuur--nieuws:tablet>jps-retail-disclaimer:tablet>index"/>
+      <file name="master_contact-2.css" crc="97335037" ref="tablet>contact"/>
+      <file name="nomq_preview_master_contact-2.css" crc="3824530138" ref="tablet>contact"/>
+      <file name="jps-retail-services-winkelpand-verhuur--aanbod.css" crc="468769820" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+      <file name="nomq_jps-retail-services-winkelpand-verhuur--aanbod.css" crc="4153128928" ref="tablet>jps-retail-services-winkelpand-verhuur--aanbod"/>
+      <file name="jps-retail-services-verhuur--nieuws.css" crc="449003295" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+      <file name="nomq_jps-retail-services-verhuur--nieuws.css" crc="89177554" ref="tablet>jps-retail-services-verhuur--nieuws"/>
+      <file name="contact.css" crc="3847376698" ref="tablet>contact"/>
+      <file name="nomq_contact.css" crc="3824530138" ref="tablet>contact"/>
+      <file name="jps-retail-disclaimer.css" crc="481144487" ref="tablet>jps-retail-disclaimer"/>
+      <file name="nomq_jps-retail-disclaimer.css" crc="156576934" ref="tablet>jps-retail-disclaimer"/>
+      <file name="index.css" crc="3769313103" ref="tablet>index"/>
+      <file name="nomq_index.css" crc="101163557" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="3903892890" seo="true" mt="1631892181707" redirect="true"/>
+    <file name="jps-retail-services-winkelpand-verhuur--aanbod.html" crc="4083632216" seo="true" mt="1631892964467" redirect="true"/>
+    <file name="jps-retail-services-verhuur--nieuws.html" crc="4021369404" seo="true" mt="1623846935819" redirect="true"/>
+    <file name="contact.html" crc="60162365" seo="true" mt="1582130327239" redirect="true"/>
+    <file name="jps-retail-disclaimer.html" crc="434497747" seo="true" mt="1564061779750" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_contact-2.css" crc="4156066791" ref="phone>contact"/>
+      <file name="nomq_preview_master_contact-2.css" crc="3824530138" ref="phone>contact"/>
+      <file name="master_actual-default.css" crc="346618119" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-disclaimer:phone>index:phone>jps-retail-services-verhuur--nieuws"/>
+      <file name="nomq_preview_master_actual-default.css" crc="511182546" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod:phone>jps-retail-disclaimer:phone>index:phone>jps-retail-services-verhuur--nieuws"/>
+      <file name="jps-retail-services-winkelpand-verhuur--aanbod.css" crc="163786688" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+      <file name="nomq_jps-retail-services-winkelpand-verhuur--aanbod.css" crc="4157557303" ref="phone>jps-retail-services-winkelpand-verhuur--aanbod"/>
+      <file name="jps-retail-disclaimer.css" crc="364542832" ref="phone>jps-retail-disclaimer"/>
+      <file name="nomq_jps-retail-disclaimer.css" crc="4098642979" ref="phone>jps-retail-disclaimer"/>
+      <file name="index.css" crc="4067082863" ref="phone>index"/>
+      <file name="nomq_index.css" crc="346256616" ref="phone>index"/>
+      <file name="jps-retail-services-verhuur--nieuws.css" crc="277277134" ref="phone>jps-retail-services-verhuur--nieuws"/>
+      <file name="nomq_jps-retail-services-verhuur--nieuws.css" crc="3852312496" ref="phone>jps-retail-services-verhuur--nieuws"/>
+      <file name="contact.css" crc="516505604" ref="phone>contact"/>
+      <file name="nomq_contact.css" crc="3824530138" ref="phone>contact"/>
+    </folder>
+    <file name="index.html" crc="290907904" seo="true" mt="1623693829878" redirect="true"/>
+    <file name="jps-retail-services-winkelpand-verhuur--aanbod.html" crc="4073013582" seo="true" mt="1631892964465" redirect="true"/>
+    <file name="jps-retail-services-verhuur--nieuws.html" crc="215406443" seo="true" mt="1623694476199" redirect="true"/>
+    <file name="contact.html" crc="3760946361" seo="true" mt="1564145610506" redirect="true"/>
+    <file name="jps-retail-disclaimer.html" crc="4100446929" seo="true" mt="1564145777892" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="512821804" seo="true" mt="1631892181710" redirect="true"/>
+  <file name="jps-retail-services-winkelpand-verhuur--aanbod.html" crc="289087022" seo="true" mt="1631892964466" redirect="true"/>
+  <file name="contact.html" crc="3910306537" seo="true" mt="1631892181710" redirect="true"/>
+  <file name="jps-retail-services-verhuur--nieuws.html" crc="3776351811" seo="true" mt="1631892181708" redirect="true"/>
+  <file name="jps-retail-disclaimer.html" crc="449169717" seo="true" mt="1604499273895" redirect="true"/>
+</manifest>

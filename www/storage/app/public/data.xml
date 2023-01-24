@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Quinten Meijboom</Author>
+  <LastAuthor>Quinten Meijboom</LastAuthor>
+  <Created>2022-01-09T13:41:44Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9564</WindowHeight>
+  <WindowWidth>22104</WindowWidth>
+  <WindowTopX>936</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="data">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+   <Column ss:AutoFitWidth="0" ss:Width="113.39999999999999"/>
+   <Column ss:AutoFitWidth="0" ss:Width="193.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="309"/>
+   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">city</Data></Cell>
+    <Cell><Data ss:Type="String">street</Data></Cell>
+    <Cell><Data ss:Type="String">house_number</Data></Cell>
+    <Cell><Data ss:Type="String">postal_code</Data></Cell>
+    <Cell><Data ss:Type="String">price</Data></Cell>
+    <Cell><Data ss:Type="String">surface</Data></Cell>
+    <Cell><Data ss:Type="String">unit</Data></Cell>
+    <Cell><Data ss:Type="String">extra_details</Data></Cell>
+    <Cell><Data ss:Type="String">sold</Data></Cell>
+    <Cell><Data ss:Type="String">rented</Data></Cell>
+    <Cell><Data ss:Type="String">temporarily_rented</Data></Cell>
+    <Cell><Data ss:Type="String">image</Data></Cell>
+    <Cell><Data ss:Type="String">added_on</Data></Cell>
+    <Cell><Data ss:Type="String">brochure</Data></Cell>
+    <Cell><Data ss:Type="String">created_at</Data></Cell>
+    <Cell><Data ss:Type="String">updated_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Papendrecht</Data></Cell>
+    <Cell><Data ss:Type="String">Meentpassage</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">2200.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Units vanaf 127 m².</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">meentpassage_papendrecht.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">175.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Hoek winkelpassage (zijde Nieuwe Markt).</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage_2.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Eindhoven Zuidwest</Data></Cell>
+    <Cell><Data ss:Type="String">Kastelenplein</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">910.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Units van diverse afmetingen. Betreft tijdelijke verhuur.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Winkelcentrum_Kastelenplein_Eindhoven.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">Huurinformatie_winkelruimten_winkelcentrum_kastelenplein_te_Eindhoven.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Vught</Data></Cell>
+    <Cell><Data ss:Type="String">Secr. van Rooijstraat</Data></Cell>
+    <Cell><Data ss:Type="String">2B</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">151.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Horecapand.</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Secr._van_Rooijstraat_2B.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure-Secr._van_Rooijstraat-Vught.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Sprang Capelle</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisplein</Data></Cell>
+    <Cell><Data ss:Type="String">29B</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">1625.00</Data></Cell>
+    <Cell><Data ss:Type="String">150.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Pand ligt tussen Kruidvat en Plus Supermarkt. Prijs is per maand. </Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisplein_29B_2.png</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Raadhuisplein_29B_-_Sprang_Capelle.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Cuijk</Data></Cell>
+    <Cell><Data ss:Type="String">Maasburg</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">93.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Het pand ligt t.o.v Action, Coop en naast HEMA en Livera.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Maasburg4Cuijk.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">Verkorte_vrijblijvende_projectinfo_Maasburg_4.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Vught</Data></Cell>
+    <Cell><Data ss:Type="String">Vliertstraat</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">204.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Winkelgevel van ca 12 strekkende meter.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Vliertstraat_11_vught.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure-Vliertstraat_11-Vught.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Nieuwe Markt</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">973.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Aan de nieuwe Marktzijde van de Muntpassage. Opening 3e kwartaal 2020.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Nieuwe_Markt_22.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">212.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Centraal in de winkel passage. Opening 1e kwartaal 2020.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">muntpassage_33.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">345.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Centraal in de winkel passage. Opening 1e kwartaal 2020.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">MuntPassage_30.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">443.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Centraal in de winkel passage</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">muntpassage_26_weert.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel</Data></Cell>
+    <Cell><Data ss:Type="String">Winkelcentrum Woensel</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">58.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Ligging nabij overdekte hoofdentree.  Oppervlakte is 58 m² begane grond. 24 m² entresol. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel_416.png</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Woensel_416-Eindhoven.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Hilvarenbeek</Data></Cell>
+    <Cell><Data ss:Type="String">Gelderstraat</Data></Cell>
+    <Cell><Data ss:Type="String">21-23</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">262.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Huurprijs op aanvraag</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Gelderstraat_Hilvarenbeek_21-23.png</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Gelderstraat_21-23_-_Hilvarenbeek-14-12-2020.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Weert</Data></Cell>
+    <Cell><Data ss:Type="String">Muntpassage</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">200.00</Data></Cell>
+    <Cell><Data ss:Type="String">3100.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Units van diverse afmetingen. Afhankelijk van de oppervlakte en locatie. Huurprijs is tussen de €200 en €300 per m² per jaar excl. btw + PDV.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Bristol_nieuwe_markt_22.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">Weert_Munt_verhuurbrochure_DEF_-_versie19619.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Valkenswaard</Data></Cell>
+    <Cell><Data ss:Type="String">Corridor</Data></Cell>
+    <Cell><Data ss:Type="String">17 en 17A</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">160.00</Data></Cell>
+    <Cell><Data ss:Type="String">146.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Oppervlakte is 146 m², respectievelijk 130 m². Units zijn samen te voegen tot winkelunit van ca 276 m² € 180,-/m2 , bij samenvoeging €160,- m² excl. btw </Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Corridor_17_Valkenswaard.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Corridor_17en_17a-Valkenswaard.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Vught</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisstraat</Data></Cell>
+    <Cell><Data ss:Type="String">3BII</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">93.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Karakteristiek gebouwd winkelpand</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisstraat_3B_II.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Raadhuisstraat_3B_-_Vught_-_Versie_2.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Vught</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisstraat</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">284.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Karakteristiek gebouw winkelpand</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Raadhuisstraat_3.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">verhuurbrochure_Raadhuisstraat_3_-_Vught.pdf</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Cuijk, Winkelcentrum Maasburg</Data></Cell>
+    <Cell><Data ss:Type="String">Maasburg</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">134.50</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Brede pui. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">maasburg_5.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum gebied Someren</Data></Cell>
+    <Cell><Data ss:Type="String">Verdonckstraat</Data></Cell>
+    <Cell><Data ss:Type="String">1B</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">165.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Parkeergelegenheid&#160;voor de deur. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">Eindhoven</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel</Data></Cell>
+    <Cell><Data ss:Type="String">40a</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">162.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">In het hart van het winkelcentrum Woensel nabij Hema. Ook te huren in combinatie met nr 40c. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel_40a.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Eindhoven</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel</Data></Cell>
+    <Cell><Data ss:Type="String">40c</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">342.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">In het hart van het winkelcentrum Woensel. ca 142 m² bvo en 342m² bvo verdieping. Ook te huren in combinatie met nr 40a. Ook verdieping separaat mogelijk. Het is een hoekpand.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Woensel_40c.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Centrumgebied Breda</Data></Cell>
+    <Cell><Data ss:Type="String">Keizerstraat</Data></Cell>
+    <Cell><Data ss:Type="String">1 t/m 1D</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">2000.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Unieke locatie. Ook in kleinere units beschikbaar. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Keizerstraat_1.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Centrumgebied Budel</Data></Cell>
+    <Cell><Data ss:Type="String">Nieuwstraat</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">228.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Brede pui. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Budel_Nieuwstraat_3.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Oss</Data></Cell>
+    <Cell><Data ss:Type="String">Burgwal</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">805.50</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Aantrekkelijke huurprijs. Aantrekkelijke huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">burgwal_21.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">Winkelcentrum Maasburg, centrum Cuijk</Data></Cell>
+    <Cell><Data ss:Type="String">Maasburg</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">115.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Brede etalage. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">maasburg_2.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Helmond</Data></Cell>
+    <Cell><Data ss:Type="String">Markt</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">69.00</Data></Cell>
+    <Cell><Data ss:Type="String">m²</Data></Cell>
+    <Cell><Data ss:Type="String">Gelegen op hoek Veestraat naast Van Haren. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Markt_15.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Dongen</Data></Cell>
+    <Cell><Data ss:Type="String">Hoge Ham</Data></Cell>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">580.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Mooie hoeklocatie met parkeergelegenheid. Oppervlakte is eventueel te splitsen. Huurprijs op aanvraag.</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">hoge_ham_159.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Papendrecht</Data></Cell>
+    <Cell><Data ss:Type="String">Brederodelaan</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">141.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Brederodelaan_46.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Papendrecht</Data></Cell>
+    <Cell><Data ss:Type="String">Meentpassage</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">156.00</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell><Data ss:Type="String">Gelegen naast JUMBo en t.o Bruna en Etos</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Meentpassage_6.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">Centrum Cuijk</Data></Cell>
+    <Cell><Data ss:Type="String">Maasburg </Data></Cell>
+    <Cell><Data ss:Type="String">38A</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">97.5</Data></Cell>
+    <Cell><Data ss:Type="String">m² b.v.o.</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Cuijk_maasburg_38A.jpg</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+    <Cell><Data ss:Type="String">NULL</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
