@@ -14,8 +14,6 @@ class HomeController extends Controller
     {
         $offers =  Offer::all()->take(3);
 
-        dd($offers);
-
         return view('pages/home', [
             "offers" => $offers,
         ]);

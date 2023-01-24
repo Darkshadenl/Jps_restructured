@@ -192,7 +192,7 @@
                         </select>
                     </div>
                     <div class="ml-4">
-                        {{ $offers->links('vendor/pagination/tailwind') }}
+                        {{ $offers->links('livewirestuff/pagination/tailwind') }}
                     </div>
 
                 </div>
@@ -310,7 +310,7 @@
                     </ul>
 
                     <span style="display: table; margin: 0 auto;">
-                        {{ $offers->links('vendor/pagination/tailwind') }}
+                        {{ $offers->links('livewirestuff/pagination/tailwind') }}
                     </span>
                 </div>
             </div>
