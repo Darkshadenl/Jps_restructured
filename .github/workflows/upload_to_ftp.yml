@@ -1,0 +1,28 @@
+on: [push]
+
+jobs:
+    deploy_job:
+    runs-on: ubuntu-latest
+    name: build&deploy
+    steps:
+        # To use this repository's private action, you must check out the repository
+        - name: Checkout
+        uses: actions/checkout@v2
+
+        - name: Install node modules
+        run: yarn
+        working-directory: private
+
+        - name: Install composer stuff
+        run: composer install --optimize-autoloader --no-dev
+        working-directory: private
+
+        # - name: deploy file to server
+        # uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        # with:
+        #     username: 'root'
+        #     server: '${{ secrets.SERVER_IP }}'
+        #     ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        #     local_path: './build/*'
+        #     remote_path: '/var/www/react-app'
+        #     sftpArgs: '-o ConnectTimeout=5'
