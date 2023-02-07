@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #
 # MOVE THIS FILE TO /git/hooks/
 # Run following command to fix permissions:
