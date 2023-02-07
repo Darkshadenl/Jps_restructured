@@ -9,36 +9,15 @@ FQDN=sftp://$HOST
 STANDARD="duck --username $USER --password $PASSWORD"
 
 # Get the list of file names in the Git change list of the current commit
-files=$(git diff-tree --staged --name-only)
+files=$(git diff --staged --name-only)
+filtered=()
 
-
-cd private || exit
-
-# Loop through the file names and print their locations
 for file in $files; do
-    echo "$(pwd)/$file"
-    echo $file
-    result="${string#*/Jps_restructured}"
-
-    exit
-
-    # Strip the ./ prefix
-    file="${file#./*}"
-    formatted=file
-    # Check if the file has an extension
-    if [[ "$file" == *.* ]]; then
+    if [[ "$file" == private/* ]]; then
         echo "$file"
-    else
-        formatted="$file"/
-    fi
-
-    $STANDARD -e overwrite --upload $FQDN/www/storage public/
+        filtered+=("$file")
+fi
 done
-exit
-
-echo -e "\033[38;5;208mone uploading committed files. Exiting\033[0m"
-
-
 
 res1='n'
 res2='n'
@@ -59,7 +38,6 @@ if [ "$ulti" = "n" ]; then
     cd private_release || exit
     echo changed directory to private_release
 else
-    cd private || exit
 
     if [ "$res1" = "y" ]; then
         echo "Running npm install and composer install."
@@ -68,28 +46,15 @@ else
         echo "Skipping npm install and composer install."
     fi
 
-    
-    # Loop through the file names and print their locations
-    for file in $files; do
-        echo "$(pwd)/$file"
-        result="${string#*/Jps_restructured}"
-
-        exit
-
-        # Strip the ./ prefix
-        file="${file#./*}"
-        formatted=file
-        # Check if the file has an extension
-        if [[ "$file" == *.* ]]; then
-            echo "$file"
-        else
-            formatted="$file"/
+    for file in "${filtered[@]}"; do
+        if [[ "$file" == private/* ]] && 
+            [[ "$file" != private/public/* ]] && 
+                [[ "$file" != private/storage/* ]]; then
+                $STANDARD -e overwrite --upload $FQDN/private/ "$file"
         fi
-
-        $STANDARD -e overwrite --upload $FQDN/www/storage public/
     done
 
-    echo -e "\033[38;5;208mone uploading committed files. Exiting\033[0m"
+    echo -e "\033[38;5;208mDone uploading committed files. Exiting\033[0m"
     exit
 fi
 
