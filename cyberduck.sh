@@ -24,7 +24,7 @@ res2='n'
 res3='n'
 res4='n'
 
-read -p "Only upload commit files? (y/n) " ulti
+read -p "Only upload staged files? (y/n) " ulti
 read -p "Do you need to run a full npm install and composer install? (y/n) " res1
 
 if [ "$ulti" = "n" ]; then

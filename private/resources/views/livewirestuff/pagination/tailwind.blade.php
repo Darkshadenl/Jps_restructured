@@ -1,3 +1,13 @@
+<style>
+    #tailwind_mobile_menu_c {
+        display: flex;
+        justify-content: space-between;
+        /* flex: 1 1 0; */
+        flex-wrap: wrap;
+        max-width: 14rem;
+    }
+</style>
+
 <div>
     @if ($paginator->hasPages())
         @php(isset($this->numberOfPaginatorsRendered[$paginator->getPageName()]) ? $this->numberOfPaginatorsRendered[$paginator->getPageName()]++ : $this->numberOfPaginatorsRendered[$paginator->getPageName()] = 1)
@@ -6,7 +16,7 @@
             aria-label="{{ __('Pagination Navigation') }}"
             class="flex items-center justify-between">
 
-            <div id="tailwind_mobile_menu">
+            <div id="tailwind_mobile_menu_c" class="ab">
                 <div>
                     @if ($paginator->onFirstPage())
                         <span
