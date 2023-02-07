@@ -8,11 +8,8 @@ PASSWORD=RBHebgXuVq93
 FQDN=sftp://$HOST
 STANDARD="duck --username $USER --password $PASSWORD"
 
-# Get the current commit hash
-commit=$(git rev-parse HEAD)
-
 # Get the list of file names in the Git change list of the current commit
-files=$(git diff-tree --no-commit-id --name-only -r $commit)
+files=$(git diff-tree --staged --name-only)
 
 
 cd private || exit
