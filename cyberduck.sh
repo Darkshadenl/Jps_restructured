@@ -159,15 +159,21 @@ function run_short_upload {
         upload_composer_packages
     fi
 
-    for file in "${filtered[@]}"; do
-        if [[ "$file" == private/* ]] && 
-            [[ "$file" != private/public/* ]] && 
-                [[ "$file" != private/storage/* ]]; then
-                $STANDARD -e overwrite --upload $FQDN/private/ "$file"
-        fi
-    done
+    list_length=${#filtered[@]}
 
-    echo -e "\033[38;5;208mDone uploading committed files. Exiting\033[0m"
+    if [[ $list_length -gt 0 ]]; then
+        for file in "${filtered[@]}"; do
+            if [[ "$file" == private/* ]] && 
+                [[ "$file" != private/public/* ]] && 
+                    [[ "$file" != private/storage/* ]]; then
+                    $STANDARD -e overwrite --upload $FQDN/private/ "$file"
+            fi
+        done
+        echo -e "\033[38;5;208mDone uploading committed files. Exiting\033[0m"
+    else
+        echo -e "\033[38;5;208mNo files to upload\033[0m"
+    fi
+
     cleanup
 }
 
@@ -190,6 +196,7 @@ function optimize_public_folder {
     # shellcheck source=optimize_public.sh
     source ../optimize_public.sh
     optimize_public
+    echo $dirname
 }
 
 function upload_env {
