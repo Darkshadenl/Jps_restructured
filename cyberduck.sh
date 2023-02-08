@@ -6,17 +6,28 @@ source .env || exit
 FQDN=sftp://$HOST
 STANDARD="duck --username $USER --password $PASSWORD"
 
+COPY_EXCLUDE_LIST=(vendor node_modules .env)
+
 res1='n'
 res2='n'
 res3='n'
 res4='n'
 filtered=()
 
+exec < /dev/tty
+
+do_echo() {
+  for i in $(seq 1 $1); do
+    echo
+  done
+}
+
+
 function retrieve_staged_files {
     # Get the list of file names in the Git change list of the current commit
     files=$(git diff --staged --name-only)
 
-    # echo 'files with changes' in color red
+    do_echo 2
     echo -e "\033[38;5;208mFiles with changes:\033[0m"
     for file in $files; do
         if [[ "$file" == private/* ]]; then
@@ -35,10 +46,9 @@ function check_if_master {
 }
 
 function npm_composer_install {
-    # in orange echo 'Cleanup old npm and composer files'
-    echo -e "\033[38;5;208mCleanup old npm and composer files\033[0m"
-    rm -r node_modules
-    rm -r vendor
+    if [ "$res1" = "n" ]; then
+        return
+    fi
 
     echo Install NPM packages
     npm install
@@ -52,20 +62,33 @@ function npm_composer_install {
 }
 
 function change_to_private_release {
-    cp -r private private_release
-    cd private_release || exit
+    do_echo 3
     echo changed directory to private_release
-}
+    do_echo 3
 
-function cleanup_env {
-    echo removing .env
-    rm .env
-    echo
+    mkdir private_release
+
+    for f in private/*; do
+        filename="${f##*/}"
+        should_copy=1
+
+        for exclude in "${COPY_EXCLUDE_LIST[@]}"; do
+            if [[ $filename == $exclude ]]; then
+                should_copy=0
+                break
+            fi
+        done
+
+        if [[ $should_copy -eq 1 ]]; then
+            echo "Copying $f"
+            cp -r "$f" private_release/
+        fi
+    done
+    cd private_release || exit
 }
 
 function questionaire {
-    echo 
-    echo
+    do_echo 2
 
     read -p "Only upload staged files? (y/n) " ulti
     read -p "Did you install any new packages (npm, composer) (y/n) " res1
@@ -73,7 +96,8 @@ function questionaire {
     if [ "$ulti" = "n" ]; then
         read -p "Optimize cache + optimize view loading? (y/n) " res2
         echo -e "\033[38;5;208mpublic folder will be optimized for sftp\033[0m"
-        read -p "Upload all images + completely new public folder? (y/n) " res3
+        read -p "Upload completely new public folder? (y/n) " res5
+        read -p "Upload all images? (y/n) " res3
         read -p "Full site renewal (upload full site except for filtered out in prev questions)? (y/n) " res4
     else
         run_short_upload
@@ -83,14 +107,14 @@ function questionaire {
 }
 
 function run_short_upload {
+    if [ "$ulti" != "y" ]; then
+        return
+    fi
+
+    echo -e "\033[38;5;208mRunning short upload (staged files only)\033[0m"
     echo -e "\033[38;5;208mShort upload only uploads staged files and possible npm/composer files.\033[0m"
 
-    if [ "$res1" = "y" ]; then
-        echo "Running npm install and composer install."
-        npm_composer_install
-    else
-        echo "Skipping npm install and composer install."
-    fi
+    npm_composer_install
 
     for file in "${filtered[@]}"; do
         if [[ "$file" == private/* ]] && 
@@ -101,9 +125,13 @@ function run_short_upload {
     done
 
     echo -e "\033[38;5;208mDone uploading committed files. Exiting\033[0m"
+    exit
 }
 
 function optimize_view_and_cache {
+    if [ "$res2" = "n" ]; then
+        return
+    fi
     echo Optimize cache and optimize view loading
     php artisan config:cache
     echo
@@ -113,41 +141,62 @@ function optimize_view_and_cache {
 }
 
 function optimize_public_folder {
-    echo
+    if [ "$res5" = "n" ]; then
+        return
+    fi
+    echo not implemented yet
 }
 
 function upload_all_img_files {
+    if [ "$res3" = "n" ]; then
+        return
+    fi
     $STANDARD -e overwrite --upload $FQDN/www/storage storage/img 
     rm -r storage/img
 }
 
 function upload_public_folder {
+    if [ "$res5" = "n" ]; then
+        return
+    fi
     $STANDARD -e overwrite --upload $FQDN/www/storage public/
     rm -r public
 }
 
 function upload_everything_else {
+    if [ "$res4" = "n" ]; then
+        return
+    fi
     echo Copy everything inside private_release to remote private
     $STANDARD -e overwrite --upload $FQDN/private private_release/ 
     echo -e "\033[32mDone\033[0m"
     echo
+}
 
+function cleanup {
+    cd .. || exit
+    do_echo 2
     echo Remove private_release because its a temp folder
     rm -r private_release
     echo -e "\033[32mDone\033[0m"
+    exit
 }
 
 function setup {
-    # Read user input, assign stdin to keyboard
     check_if_master
-    exec < /dev/tty
     retrieve_staged_files
     change_to_private_release
-    cleanup_env
 }
 
+trap cleanup INT
 
 setup
+# location is currently private_release
 questionaire
-
-
+run_short_upload
+optimize_view_and_cache
+optimize_public_folder
+upload_public_folder
+upload_all_img_files
+upload_everything_else
+cleanup
