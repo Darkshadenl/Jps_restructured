@@ -55,23 +55,16 @@ function check_if_master {
     fi
 }
 
-function npm_composer_install {
-    if [ "$res1" != "y" ]; then
-        return
-    fi
-    do_echo 1
-    read -t 3 -p "Install npm packages (Y/n)? " -n 1 -r answer
-    do_echo 2
+function npm_install {
     if [[ $answer = "" || $answer = "Y" || $answer = "y" ]]; then
         echo Install NPM packages
         npm install
         echo -e "\033[32mDone\033[0m"
         echo
     fi
-    
-    do_echo 1
-    read -t 3 -p "Install vendor packages (Y/n)? " -n 1 -r answer
-    do_echo 2
+}
+
+function composer_install {
     if [[ $answer = "" || $answer = "Y" || $answer = "y" ]]; then
         echo Install composer packages
         composer install --optimize-autoloader --no-dev
@@ -81,9 +74,6 @@ function npm_composer_install {
 }
 
 function upload_composer_packages {
-    do_echo 1
-    read -t 3 -p "Upload composer packages (Y/n)? " -n 1 -r answer
-    do_echo 2
     if [[ $answer = "" || $answer = "Y" || $answer = "y" ]]; then
         $STANDARD -e overwrite --upload $FQDN/private vendor/
         rm -r vendor
@@ -91,9 +81,6 @@ function upload_composer_packages {
 }
 
 function upload_npm_packages {
-    do_echo 1
-    read -t 3 -p "Upload npm packages (Y/n)? " -n 1 -r answer
-    do_echo 2
     if [[ $answer = "" || $answer = "Y" || $answer = "y" ]]; then
         $STANDARD -e overwrite --upload $FQDN/private node_modules/
         rm -r node_modules
@@ -132,15 +119,22 @@ function questionaire {
     read -p "Did you install any new packages (npm, composer) (y/N) " res1
 
     if [ "$ulti" != "y" ]; then
-        read -p "Optimize cache + optimize view loading? (y/N) " res2
-        echo -e "\033[38;5;208mpublic folder will be optimized for sftp\033[0m"
-        read -p "Upload completely new public folder? (y/N) " res5
+        # read -p "Optimize cache + optimize view loading? (y/N) " res2
+       
+        echo Upload completely new public folder?
+        echo -e "\033[38;5;208mIf Y, public folder will be optimized for sftp\033[0m"
+        read -p " (y/N) " res5
+
         read -p "Upload .env (check script)? (y/N) " envupload
         read -p "Upload all images? (y/N) " res3
         read -p "Full site renewal (upload full site except for filtered out in prev questions)? (y/N) " res4
+
+        if [[ "$envupload" == "y" || "$res3" == "y" || "$res4" == "y" ]]; then
+            res2='y'
+        fi
+
     else
         run_short_upload
-        exit
     fi
 
 }
@@ -151,10 +145,12 @@ function run_short_upload {
     fi
 
     echo -e "\033[38;5;208mRunning short upload (staged files only)\033[0m"
-    echo -e "\033[38;5;208mShort upload only uploads staged files and possible npm/composer files.\033[0m"
+    echo -e "\033[38;5;208mShort upload only uploads staged files and possibly npm/composer files.\033[0m"
 
-    npm_composer_install
+    
     if [ "$res1" = "y" ]; then
+        npm_install
+        composer_install
         upload_npm_packages
         upload_composer_packages
     fi
@@ -181,12 +177,28 @@ function optimize_view_and_cache {
     if [ "$res2" != "y" ]; then
         return
     fi
+
+    # Needs vendor folder
+    if [ ! -d "vendor" ]; then
+        do_echo 2
+        echo -e "\033[38;5;208mVendor folder not found. Installing composer packages\033[0m"
+        composer_install
+        do_echo 2
+    fi
+
+    do_echo 2
     echo Optimize cache and optimize view loading
+    do_echo 1
     php artisan config:cache
     echo
+    # upload bootstrap/cache
+    $STANDARD -e overwrite --upload $FQDN/private/bootstrap/cache bootstrap/cache/
 
     php artisan view:cache
     echo
+    # upload storage/framework/views 
+    $STANDARD -e overwrite --upload $FQDN/private/storage/framework/views storage/framework/views/
+
 }
 
 function optimize_public_folder {
@@ -196,7 +208,6 @@ function optimize_public_folder {
     # shellcheck source=optimize_public.sh
     source ../optimize_public.sh
     optimize_public
-    echo $dirname
 }
 
 function upload_env {
@@ -205,12 +216,14 @@ function upload_env {
     fi
     echo Upload .env file
 
+    pwd
     # shellcheck source=create_env.sh
-    source create_env.sh
+    source ../create_env.sh
+    create_env
 
     php artisan config:clear
 
-    $STANDARD -e overwrite --upload $FQDN/private .env
+    $STANDARD -e overwrite --upload $FQDN/private/ .env
     echo -e "\033[32mDone\033[0m"
 }
 

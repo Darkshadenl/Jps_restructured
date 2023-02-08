@@ -60,4 +60,5 @@ optimize_public() {
     ))->send();
 
     $kernel->terminate($request, $response);" > index.php
+    cd ..
 }
