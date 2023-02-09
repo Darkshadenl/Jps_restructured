@@ -12,7 +12,7 @@ for file in $staged_files; do
     fi
 done
 
-# Upload the filtered files to the remote server
+# Upload the filtered files to the sftp remote server
 HOST=jpsretail.nl
 USER=jpsretail.nl
 PASSWORD=RBHebgXuVq93
