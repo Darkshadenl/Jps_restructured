@@ -59,7 +59,9 @@
                         >
                             Neem dan nu contact met ons op.
                         </p>
-                        <form method="POST" action="{{ route('home.contact') }}">
+
+
+                        <form method="POST" id="cform" action="{{ route('home.contact') }}">
                             @csrf
                             <div class="relative w-full mb-3 mt-8">
                                 @error('full_name')
@@ -128,8 +130,20 @@
                                 >{{ old('message') }}</textarea>
                             </div>
                             <div class="text-center mt-6">
+                                <input type="hidden" name="g-recaptcha-response" id="hidden-input"/>
+
                                 <button
-                                    class="bg-gray-900 hover:bg-pink-500 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                                    class="bg-gray-900 hover:bg-pink-500 text-white active:bg-gray-700 text-sm 
+                                    font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none 
+                                    focus:outline-none mr-1 mb-1
+                                    g-recaptcha
+                                    "
+
+                                    data-sitekey="{{ config('services.recaptcha.site_key') }}"
+                                    data-callback='onSubmit'
+                                    data-action='submit'
+
+
                                     type="submit"
                                     @if(Request::is(['/', 'contact']))
                                     style="transition: all 0.15s ease 0s; background-color:#58164a;"
@@ -147,3 +161,12 @@
         </div>
     </div>
 </section>
+
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+   function onSubmit(token) {
+     document.getElementById('hidden-input').value = token; 
+     document.getElementById("cform").submit();
+   }
+</script>

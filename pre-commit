@@ -1,8 +1,0 @@
-#!/bin/sh
-#
-# MOVE THIS FILE TO /git/hooks/
-# Run following command to fix permissions:
-# chmod +x pre-commit
-
-sh cyberduck.sh
-

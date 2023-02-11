@@ -16,7 +16,7 @@
             aria-label="{{ __('Pagination Navigation') }}"
             class="flex items-center justify-between">
 
-            <div id="tailwind_mobile_menu_2">
+            <div id="tailwind_mobile_menu_2" class="a">
                 <div>
                     @if ($paginator->onFirstPage())
                         <span
