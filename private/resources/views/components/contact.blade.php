@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 <section
     class="pb-8 @if(Request::is('contact')) pt-10 lg:pt-0 @else  @endif bg-gray-100 relative block"
 >
@@ -50,7 +52,10 @@
                             @if(Request::is(['/', 'contact']))
                             style="color: #58164a"
                             @endif
-                        >Ben u geïnteresseerd?</h4>
+                        >
+                        Ben u geïnteresseerd?
+                        </h4>
+
                         <p
                             class="leading-relaxed mt-1 mb-4 text-gray-600"
                             @if(Request::is(['/', 'contact']))
@@ -60,21 +65,37 @@
                             Neem dan nu contact met ons op.
                         </p>
 
+                        <p class="contact-info m-1" style="color: #ae2c98;"> 
+                            <span class="phone-number leading-relaxed">Mobiel: 06 51 18 83 22</span> 
+                            <span class="email leading-relaxed">E-mail: info@jpsretail.nl</span> 
+                            <span class="address leading-relaxed">Adres: Aangelag 24, 5674 CP Nuenen</span> 
+                        </p> 
+
+                    
 
                         <form method="POST" id="cform" action="{{ route('home.contact') }}">
+                            
                             @csrf
+                            
                             <div class="relative w-full mb-3 mt-8">
                                 @error('full_name')
-                                <p class="text-pink-600 font-weight: 600 text-sm">{{ $errors->first('full_name') }}</p>
+                                
+                                <p class="text-pink-600 font-weight: 600 text-sm">
+                                    {{ $errors->first('full_name') }}
+                                </p>
+
                                 @enderror
+                               
                                 <label
                                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
                                     @if(Request::is(['/', 'contact']))
                                     style="color: #ae2c98;"
                                     @endif
                                     for="full-name"
-                                >Volledige naam</label
                                 >
+                                Volledige naam
+                                </label>
+
                                 <input
                                     type="text"
                                     name="full_name"
@@ -84,6 +105,7 @@
                                     placeholder="Volledige Naam"
                                     style="transition: all 0.15s ease 0s;"
                                 />
+
                             </div>
                             <div class="relative w-full mb-3">
                                 @error('email')

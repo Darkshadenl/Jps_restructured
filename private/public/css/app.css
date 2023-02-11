@@ -9,6 +9,16 @@ Document
 ========
 */
 
+.contact-info {
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 1em;
+
+}
+
+.phone-number, .email, .address {
+  display: block;
+  margin-bottom: 5px;
+}
 /**
 Use a better box model (opinionated).
 */

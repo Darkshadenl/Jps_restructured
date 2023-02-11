@@ -95,3 +95,13 @@
     }
 }
 
+.contact-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.phone-number, .email, .address {
+    display: block;
+    margin-bottom: 5px;
+}
