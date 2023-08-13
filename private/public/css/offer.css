@@ -23,6 +23,14 @@ html, body {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    flex-shrink: 0;
+}
 
 .flexbox-section {
     display: flex;
@@ -550,7 +558,6 @@ html, body {
     #header > div {
         background-position: 0 -27rem;
     }
-
 }
 
 @media only screen and (min-width: 1300px) {

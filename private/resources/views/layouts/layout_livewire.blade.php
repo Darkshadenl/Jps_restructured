@@ -28,9 +28,6 @@
 
 @yield('content')
 
-@component('../components/footer')
-@endcomponent
-
 <script>
     function toggleNavbar(collapseID) {
         document.getElementById(collapseID).classList.toggle("hidden");

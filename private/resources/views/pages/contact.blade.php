@@ -13,6 +13,4 @@
 
 @endsection
 
-@section('endbody')
 
-@endsection

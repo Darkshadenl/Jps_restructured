@@ -178,7 +178,6 @@
                 </div>
             </div>
 
-
             <div class="offer-container">
 
                 <div id="top_menu" class="flex pt-4">
@@ -314,5 +313,6 @@
                     </span>
                 </div>
             </div>
+        </div>
     </section>
 </div>

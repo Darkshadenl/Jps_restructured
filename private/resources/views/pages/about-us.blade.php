@@ -98,6 +98,4 @@
 
 @endsection
 
-@section('endbody')
 
-@endsection
