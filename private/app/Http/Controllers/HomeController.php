@@ -13,8 +13,8 @@ class HomeController extends Controller
 
     public function index()
     {
-        $offers =  Offer::all()->take(3);
-
+        $offers = Offer::orderBy('id', 'desc')->take(3)->get();
+        
         return view('pages/home', [
             "offers" => $offers,
         ]);

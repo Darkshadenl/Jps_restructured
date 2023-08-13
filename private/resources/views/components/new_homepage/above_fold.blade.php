@@ -94,9 +94,6 @@
                         </div>
 
                         <h6 class="text-xl font-semibold">{{ $offers->first()->street }} {{ $offers->first()->city }}</h6>
-                        {{--                        <p class="mt-2 mb-4 text-gray-600">--}}
-                        {{--                            Ga naar aanbod.--}}
-                        {{--                        </p>--}}
                     </div>
                 </div>
             </div>
@@ -114,9 +111,6 @@
                         </div>
 
                         <h6 class="text-xl font-semibold">{{ $offers->skip(1)->first()->street }} {{ $offers->skip(1)->first()->city }}</h6>
-                        {{--                        <p class="mt-2 mb-4 text-gray-600">--}}
-                        {{--                            Ga naar aanbod.--}}
-                        {{--                        </p>--}}
                     </div>
                 </div>
             </div>
@@ -134,9 +128,6 @@
                         </div>
 
                         <h6 class="text-xl font-semibold">{{ $offers->skip(2)->first()->street }} {{ $offers->skip(2)->first()->city }}</h6>
-                        {{--                        <p class="mt-2 mb-4 text-gray-600">--}}
-                        {{--                            Ga naar aanbod.--}}
-                        {{--                        </p>--}}
                     </div>
                 </div>
             </div>

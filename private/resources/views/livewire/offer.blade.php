@@ -269,7 +269,7 @@
                                             </div>
                                             <div>
                                                 <p class="surface" style="">
-                                                    ca. {{ $offer->surface }}{{ $offer->unit }}
+                                                    ca. {{ $offer->surface == (int)$offer->surface ? (int)$offer->surface : number_format($offer->surface, 2) }}{{ $offer->unit }}
                                                 </p>
                                             </div>
                                             <div class="price_button">
