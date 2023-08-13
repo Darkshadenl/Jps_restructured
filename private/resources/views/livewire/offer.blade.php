@@ -178,20 +178,31 @@
                 </div>
             </div>
 
-
             <div class="offer-container">
 
-                <div id="top_menu" class="flex pt-4">
-                    <div id="filter_div">
-                        <select wire:model="orderBy" name="filter" id="filter">
-                            <option value="Toegevoegd">Toegevoegd</option>
-                            <option value="Prijs">Prijs</option>
-                            <option value="Oppervlakte">Oppervlakte</option>
-                            <option value="Stad">Stad</option>
-                            <option value="Straat">Straat</option>
-                        </select>
+                <div id="top_menu" class="flex flex-col items-center pt-4 space-x-1 xl:space-y-3">
+
+                    <div id="filter_div" class="flex space-x-2">
+                        <div>
+                            <select wire:model="orderBy" name="filter" id="filter">
+                                <option value="added_on">Toegevoegd</option>
+                                <option value="price">Prijs</option>
+                                <option value="surface">Oppervlakte</option>
+                                <option value="city">Stad</option>
+                                <option value="street">Straat</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <select wire:model="orderDirection" name="filter" id="filter">
+                                <option value="asc">Oplopend</option>
+                                <option value="desc" selected>Aflopend</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="ml-4">
+
+
+                    <div>
                         {{ $offers->links('livewirestuff/pagination/tailwind') }}
                     </div>
 
@@ -314,5 +325,6 @@
                     </span>
                 </div>
             </div>
+        </div>
     </section>
 </div>

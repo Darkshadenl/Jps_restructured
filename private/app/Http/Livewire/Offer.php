@@ -15,7 +15,8 @@ class Offer extends Component
     public $max_value = "";
     public $min_surface = "";
     public $max_surface = "";
-    public $orderBy = "";
+    public $orderBy = "added_on";
+    public $orderDirection = "desc";
     public $rented = "";
     public $sold = "";
     public $available = "Alles";
@@ -32,11 +33,11 @@ class Offer extends Component
     {
         $data = Off::query();
 
+        $data = $this->orderBy($data);
         $data = $this->filterByAvailable($data);
         $data = $this->searchStreetCity($data);
         $data = $this->filterValue($data);
         $data = $this->filterSurface($data);
-        $data = $this->orderBy($data);
 
         return view('livewire.offer', [
             'offers' => $data->paginate(5),
@@ -45,24 +46,22 @@ class Offer extends Component
 
     private function orderBy($data)
     {
-        if (!empty($this->orderBy)) {
-            switch ($this->orderBy) {
-                case "Toegevoegd":
-                    $data = $data->orderBy('added_on');
-                    break;
-                case "Prijs":
-                    $data = $data->orderBy('price');
-                    break;
-                case "Straat":
-                    $data = $data->orderBy('street');
-                    break;
-                case "Stad":
-                    $data = $data->orderBy('city');
-                    break;
-                case "Oppervlakte":
-                    $data = $data->orderBy('surface');
-                    break;
-            }
+        switch ($this->orderBy) {
+            case "added_on":
+                $data = $data->orderBy('added_on', $this->orderDirection);
+                break;
+            case "price":
+                $data = $data->orderBy('price', $this->orderDirection);
+                break;
+            case "street":
+                $data = $data->orderBy('street', $this->orderDirection);
+                break;
+            case "city":
+                $data = $data->orderBy('city', $this->orderDirection);
+                break;
+            case "surface":
+                $data = $data->orderBy('surface', $this->orderDirection);
+                break;
         }
         return $data;
     }
@@ -109,8 +108,8 @@ class Offer extends Component
             $data->where('sold', '=', '1');
         } else if ($this->available == 'Beschikbaar') {
             $data->where('sold', '=', '0')
-            ->where('rented', '=', '0')
-            ->where('temporarily_rented', '=', '0');
+                ->where('rented', '=', '0')
+                ->where('temporarily_rented', '=', '0');
         } else if ($this->available == 'Verhuurd') {
             $data->where('rented', '=', '1')
                 ->orwhere('temporarily_rented', '=', '1');
@@ -122,7 +121,6 @@ class Offer extends Component
     {
         $this->resetPage();
     }
-
 
 
 }

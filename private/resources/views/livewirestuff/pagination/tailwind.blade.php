@@ -16,11 +16,12 @@
             aria-label="{{ __('Pagination Navigation') }}"
             class="flex items-center justify-between">
 
-            <div id="tailwind_mobile_menu_2" class="a">
-                <div>
+            <div id="tailwind_mobile_menu_2">
+                <div class="flex">
                     @if ($paginator->onFirstPage())
                         <span
-                            class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 cursor-default leading-5 rounded-md">
+                            class="relative inline-flex items-center px-4 py-2 text-sm font-medium
+                             text-gray-500 whitespace-nowrap bg-white border border-gray-300 cursor-default leading-5 rounded-md">
                     {!! __('pagination.previous') !!}
                 </span>
                     @else
@@ -28,7 +29,7 @@
                             wire:click="previousPage('{{ $paginator->getPageName() }}')"
                             wire:loading.attr="disabled"
                             dusk="previousPage{{ $paginator->getPageName() == 'page' ? '' : '.' . $paginator->getPageName() }}.before"
-                            class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                            class="relative whitespace-nowrap inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
                             {!! __('pagination.previous') !!}
                         </button>
                     @endif
@@ -38,7 +39,7 @@
                             wire:click="nextPage('{{ $paginator->getPageName() }}')"
                             wire:loading.attr="disabled"
                             dusk="nextPage{{ $paginator->getPageName() == 'page' ? '' : '.' . $paginator->getPageName() }}.before"
-                            class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                            class="relative whitespace-nowrap inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 leading-5 rounded-md hover:text-gray-500 focus:outline-none focus:ring ring-gray-300 focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
                             {!! __('pagination.next') !!}
                         </button>
                     @else
@@ -50,7 +51,7 @@
                 </div>
 
                 <div id="mobile_counter" class="sm:ml-2 mb-2 xl:mt-2">
-                    <p class="text-sm text-gray-700 leading-5">
+                    <p class="text-sm text-gray-700 leading-5" style="white-space: nowrap;">
                         {!! __('Showing') !!}
                         <span class="font-medium">{{ $paginator->firstItem() }}</span>
                         {!! __('to') !!}
@@ -62,7 +63,7 @@
                 </div>
             </div>
 
-            <div id="tailwind_top_menu">
+            <div id="tailwind_top_menu" class="flex-col items-center">
                 <div class="sm:ml-2 mb-2 xl:mt-2">
                     <p class="text-sm text-gray-700 leading-5">
                         {!! __('Showing') !!}

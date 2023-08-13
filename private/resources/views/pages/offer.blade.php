@@ -1,4 +1,4 @@
-@extends('../layouts/layout')
+@extends('../layouts/layout_livewire')
 
 @section('details')
     <title>{{ __("JPS Retail Services - Aanbod - Vastgoed verhuur advies") }}</title>
@@ -9,7 +9,6 @@
     />
 
     @livewireStyles
-
 
 @endsection
 
