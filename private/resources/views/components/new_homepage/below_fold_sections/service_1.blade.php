@@ -1,20 +1,5 @@
 <section>
     <div class="flex flex-wrap items-center pt-32 pb-36 bg-gray-300">
-        {{--        <svg--}}
-        {{--            class="relative overflow-hidden"--}}
-        {{--            style="bottom: 128px;"--}}
-        {{--            xmlns="http://www.w3.org/2000/svg"--}}
-        {{--            preserveAspectRatio="none"--}}
-        {{--            version="1.1"--}}
-        {{--            viewBox="0 0 2560 200"--}}
-        {{--            x="0"--}}
-        {{--            y="0"--}}
-        {{--        >--}}
-        {{--            <polygon--}}
-        {{--                class="text-gray-900 top-0 fill-current"--}}
-        {{--                points="0,0 2560,0 0,100"--}}
-        {{--            ></polygon>--}}
-        {{--        </svg>--}}
 
         <div class="w-full md:w-5/12 px-4 mr-auto pb-12 ml-auto">
 
