@@ -65,27 +65,27 @@
                             Neem dan nu contact met ons op.
                         </p>
 
-                        <p class="contact-info m-1" style="color: #ae2c98;"> 
-                            <span class="phone-number leading-relaxed">Mobiel: 06 51 18 83 22</span> 
-                            <span class="email leading-relaxed">E-mail: info@jpsretail.nl</span> 
-                            <span class="address leading-relaxed">Adres: Aangelag 24, 5674 CP Nuenen</span> 
-                        </p> 
+                        <p class="contact-info m-1" style="color: #ae2c98;">
+                            <span class="phone-number leading-relaxed">Mobiel: 06 51 18 83 22</span>
+                            <span class="email leading-relaxed">E-mail: info@jpsretail.nl</span>
+                            <span class="address leading-relaxed">Adres: Aangelag 24, 5674 CP Nuenen</span>
+                        </p>
 
-                    
+
 
                         <form method="POST" id="cform" action="{{ route('home.contact') }}">
-                            
+
                             @csrf
-                            
+
                             <div class="relative w-full mb-3 mt-8">
                                 @error('full_name')
-                                
+
                                 <p class="text-pink-600 font-weight: 600 text-sm">
                                     {{ $errors->first('full_name') }}
                                 </p>
 
                                 @enderror
-                               
+
                                 <label
                                     class="block uppercase text-gray-700 text-xs font-bold mb-2"
                                     @if(Request::is(['/', 'contact']))
@@ -129,6 +129,7 @@
                                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                                     placeholder="Email"
                                     style="transition: all 0.15s ease 0s;"
+                                    autocomplete="email"
                                 />
                             </div>
                             <div class="relative w-full mb-3">
@@ -155,8 +156,8 @@
                                 <input type="hidden" name="g-recaptcha-response" id="hidden-input"/>
 
                                 <button
-                                    class="bg-gray-900 hover:bg-pink-500 text-white active:bg-gray-700 text-sm 
-                                    font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none 
+                                    class="bg-gray-900 hover:bg-pink-500 text-white active:bg-gray-700 text-sm
+                                    font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none
                                     focus:outline-none mr-1 mb-1
                                     g-recaptcha
                                     "
@@ -188,7 +189,7 @@
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
    function onSubmit(token) {
-     document.getElementById('hidden-input').value = token; 
+     document.getElementById('hidden-input').value = token;
      document.getElementById("cform").submit();
    }
 </script>

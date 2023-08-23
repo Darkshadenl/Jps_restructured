@@ -17,6 +17,7 @@
             <button
                 class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                 type="button"
+                title="toggleMobileNavbar"
                 onclick="toggleNavbar('example-collapse-navbar')"
             >
                 <i class="text-black fas fa-bars"></i>

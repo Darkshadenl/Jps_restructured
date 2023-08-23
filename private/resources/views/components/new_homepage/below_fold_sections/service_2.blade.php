@@ -27,7 +27,7 @@
                     src="{{ asset('storage/img/homepage/centre.jpeg') }}"
                 />
             </div>
-            <div class="w-full md:w-full lg:w-5/12 px-4 sm:px-0 pt-4">
+            <div class="w-full md:w-full lg:w-5/12 px-4 md:px-12 sm:px-0 pt-8 lg:pt-0">
                     <h3 class="text-3xl font-semibold">Commerciële planrealisatie winkelcentra</h3>
                     <p class="mt-4 text-lg leading-relaxed text-gray-600">
                         Mocht u als winkelcentrumeigenaar van plan zijn om uw winkelcentrum te gaan herontwikkelen, dan
