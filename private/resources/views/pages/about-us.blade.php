@@ -77,14 +77,29 @@
                             </div>
                             <div class="mb-2 text-gray-700">
                                 <i class="fas fa-university mr-2 text-lg text-gray-500"></i
-                                >Een hoge school
+                                >Hogeschool in Eindhoven
                             </div>
                         </div>
                         <div class="mt-10 py-10 border-t border-gray-300 text-center">
                             <div class="flex flex-wrap justify-center">
                                 <div class="w-full lg:w-9/12 px-4">
                                     <p class="mb-4 text-lg leading-relaxed text-gray-800">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut eos, magni molestiae necessitatibus rem rerum similique ullam vero! Aspernatur earum, eius excepturi itaque magnam modi nostrum optio totam ut?
+                                        Jan Peter Stuurstraat is sinds 1991 actief in het winkelvastgoed. Na het volgen van de opleiding HTS Bedrijfskader aan de Hogeschool in Eindhoven, begon hij zijn loopbaan bij Ooms makelaars in Rotterdam. Vervolgens,  werkte hij 23 jaar bij WPM Planontwikkeling in Den Bosch waarbij hij zich heeft bezig gehouden met talloze herontwikkelingsprojecten in de commerciële planrealisatiefase maar ook als projectverhuurder van nieuw gebouwde winkelcentra. Daarnaast was hij ook actief in de verhuur van de leegstaande panden binnen de beheer portefeuille van WPM.
+                                    </p>
+                                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                                        Na de overname door Colliers International van de WPM Groep, heeft Jan Peter hier nog 2 jaar gewerkt en besloot vervolgens om in 2017 voor zichzelf te beginnen. Met meer dan 25 jaar werkervaring in het commerciële winkelvastgoed en met een fors netwerk als bagage, heeft hij <b>JPS Retail Services</b> opgericht.
+                                    </p>
+                                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                                        Jan Peter werkt zelfstandig  maar ook in samenwerking met andere vastgoed specialisten uit zijn netwerk om zodoende de krachten te kunnen bundelen en hiermee een optimale en- professionele dienstverlening te realiseren.
+                                    </p>
+                                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                                        Naast JPS Retail Services is Jan Peter ook samenwerkingspartner bij Vierders (<a class="hover:bg-blue-400 bg-blue-200 p-1" href="https://www.vierders.nl">www.vierders.nl</a>). Vierders adviseert gemeenten/ondernemers bij de realisatie van een vitale- en toekomstbestendige  binnenstad.
+                                    </p>
+                                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                                        Betrokkenheid bij uw project staat bij ons hoog in het vaandel; alles met het doel om de waarde van uw winkelvastgoed te verbeteren.
+                                    </p>
+                                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                                        Wij nodigen u van harte uit om <a class="hover:bg-blue-400 p-1 bg-blue-200" href="{{ route('contact') }}">contact met ons op te nemen</a>.
                                     </p>
                                 </div>
                             </div>

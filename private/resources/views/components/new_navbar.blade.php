@@ -56,7 +56,7 @@
 {{--                        Nieuws</a--}}
 {{--                    >--}}
 {{--                </li>--}}
-                <!-- <li class="flex items-center">
+                <li class="flex items-center">
                     <a
                         href="{{ route('about_us') }}"
                         class="lg:hover:text-pink-500 @if(Request::is('about_us')) text-pink-600 @else lg:text-black text-gray-800 @endif
@@ -64,7 +64,7 @@
                     >
                         Over ons</a
                     >
-                </li> -->
+                </li>
                 <li class="flex items-center">
                     <a
                         href="{{ route('contact') }}"
