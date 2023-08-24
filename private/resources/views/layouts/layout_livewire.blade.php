@@ -18,7 +18,6 @@
 
 
     @yield('details')
-
 </head>
 
 <body>

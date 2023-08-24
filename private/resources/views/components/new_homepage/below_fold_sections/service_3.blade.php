@@ -21,7 +21,7 @@
 
     <div class="flex flex-wrap items-center pt-32 pb-32 bg-gray-300">
 
-        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+        <div class="w-full md:w-8/12 px-4 mr-auto ml-auto">
             <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
             >
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="w-full md:w-5/12 pt-12 px-4 mr-auto ml-auto">
+        <div class="w-full md:w-10/12 pt-12 px-4 mr-auto ml-auto">
 
             <h3 class="text-3xl mb-2 font-semibold leading-normal">
                 Naar een vitale en toekomstbestendige binnenstad samen met Vierders

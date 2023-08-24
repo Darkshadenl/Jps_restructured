@@ -28,10 +28,11 @@
                     We reageren binnen 1-2 dagen.
                 </h5>
                 <div class="mt-6 mb-4">
-                    <a href="https://nl.linkedin.com/in/jan-peter-stuurstraat-45112019">
+                    <a title="LinkedinLink" href="https://nl.linkedin.com/in/jan-peter-stuurstraat-45112019">
                         <button
                             class="bg-white text-blue-400 hover:text-pink-700 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                             type="button"
+                            title="LinkedIn"
                         >
                             <i class="flex fab fa-linkedin"></i></button
                         >
@@ -41,7 +42,7 @@
             <div class="w-full lg:w-6/12 px-4">
                 <div class="flex flex-wrap items-top mb-6">
                     <div class="w-full lg:w-4/12 px-4 ml-auto">
-               
+
                         <ul class="list-unstyled">
                             <!-- <li>
                                 <a

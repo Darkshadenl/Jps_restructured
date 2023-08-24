@@ -43,7 +43,6 @@
                         <a role="button"
                            href="{{ route('offer') }}"
                            class=" flex scale-110
-{{--                        rounded-full--}}
                                transition transform duration-500 ease-in-out
                                p-4 bg-red-600 text-white text-sm px-4 py-2 font-bold rounded-lg shadow-xs cursor-pointer
                               hover:bg-red-700 hover:text-gray-100 hover:-translate-y-1 hover:scale-110">
@@ -79,58 +78,29 @@
 
 <section class="pb-12 lg:pb-20 bg-gray-300 -mt-36">
     <div class="container mx-auto px-4 pt-1">
-        <div class="flex flex-wrap mt-8">
+        <div class="flex flex-wrap mt-8 justify-center">
 
-            <div class="w-full md:w-4/12 px-4 text-center">
-                <div
-                    class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-                >
-                    <div class="px-4 py-5 flex-auto">
+            @component('components.new_homepage.banner_image', [
+                'image' => asset("storage/img/offer/{$offers->first()->image}"),
+                'street' => $offers->first()->street,
+                'city' => $offers->first()->city
+            ])
+            @endcomponent
 
-                        <div class="mb-4">
-                            <img src="{{ asset("storage/img/offer/{$offers->first()->image}") }}"
-                                 alt="{{ $offers->first()->street }} {{ $offers->first()->city }}"
-                                 class="max-h-48 w-full">
-                        </div>
-
-                        <h6 class="text-xl font-semibold">{{ $offers->first()->street }} {{ $offers->first()->city }}</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-full md:w-4/12 px-4 text-center">
-                <div
-                    class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-                >
-                    <div class="px-4 py-5 flex-auto">
-                        <div class="mb-4 ">
-                            <img
-                                src="{{ asset("storage/img/offer/{$offers->skip(1)->first()->image}") }}"
-                                class="max-h-48 w-full"
-                                alt="{{ $offers->skip(1)->first()->street }} {{ $offers->skip(1)->first()->city }}">
-                        </div>
-
-                        <h6 class="text-xl font-semibold">{{ $offers->skip(1)->first()->street }} {{ $offers->skip(1)->first()->city }}</h6>
-                    </div>
-                </div>
-            </div>
+            @component('components.new_homepage.banner_image', [
+                'image' => asset("storage/img/offer/{$offers->skip(1)->first()->image}"),
+                'street' => $offers->skip(1)->first()->street,
+                'city' => $offers->skip(1)->first()->city
+            ])
+            @endcomponent
 
 
-            <div class="w-full md:w-4/12 px-4 text-center">
-                <div
-                    class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
-                >
-                    <div class="px-4 py-5 flex-auto">
-                        <div class="mb-4">
-                            <img src="{{ asset("storage/img/offer/{$offers->skip(2)->first()->image}") }}"
-                                 alt="{{ $offers->skip(2)->first()->street }} {{ $offers->skip(2)->first()->city }}"
-                                 class="max-h-48 w-full">
-                        </div>
-
-                        <h6 class="text-xl font-semibold">{{ $offers->skip(2)->first()->street }} {{ $offers->skip(2)->first()->city }}</h6>
-                    </div>
-                </div>
-            </div>
+            @component('components.new_homepage.banner_image', [
+                'image' => asset("storage/img/offer/{$offers->skip(2)->first()->image}"),
+                'street' => $offers->skip(2)->first()->street,
+                'city' => $offers->skip(2)->first()->city
+            ])
+            @endcomponent
 
         </div>
     </div>

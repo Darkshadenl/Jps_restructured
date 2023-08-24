@@ -1,20 +1,5 @@
 <section>
     <div class="flex flex-wrap items-center pt-32 pb-36 bg-gray-300">
-        {{--        <svg--}}
-        {{--            class="relative overflow-hidden"--}}
-        {{--            style="bottom: 128px;"--}}
-        {{--            xmlns="http://www.w3.org/2000/svg"--}}
-        {{--            preserveAspectRatio="none"--}}
-        {{--            version="1.1"--}}
-        {{--            viewBox="0 0 2560 200"--}}
-        {{--            x="0"--}}
-        {{--            y="0"--}}
-        {{--        >--}}
-        {{--            <polygon--}}
-        {{--                class="text-gray-900 top-0 fill-current"--}}
-        {{--                points="0,0 2560,0 0,100"--}}
-        {{--            ></polygon>--}}
-        {{--        </svg>--}}
 
         <div class="w-full md:w-5/12 px-4 mr-auto pb-12 ml-auto">
 
@@ -36,14 +21,14 @@
                 Weert terug kunnen brengen van ca 3.400 m² naar ca 600 m².
             </p>
         </div>
-        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+        <div class="w-full md:w-4/12 px-8 md:px-0 mr-auto ml-auto">
             <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-pink-600"
             >
                 <img
-                    alt="..."
+                    alt="Sign document image"
                     src="{{ asset('storage/img/homepage/document_sign.jpeg') }}"
-                    class="w-full align-middle rounded-t-lg"
+                    class="w-full max-h-56 sm:max-h-80 align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
                     <svg

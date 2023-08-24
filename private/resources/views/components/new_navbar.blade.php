@@ -17,6 +17,7 @@
             <button
                 class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                 type="button"
+                title="toggleMobileNavbar"
                 onclick="toggleNavbar('example-collapse-navbar')"
             >
                 <i class="text-black fas fa-bars"></i>
@@ -55,7 +56,7 @@
 {{--                        Nieuws</a--}}
 {{--                    >--}}
 {{--                </li>--}}
-                <!-- <li class="flex items-center">
+                <li class="flex items-center">
                     <a
                         href="{{ route('about_us') }}"
                         class="lg:hover:text-pink-500 @if(Request::is('about_us')) text-pink-600 @else lg:text-black text-gray-800 @endif
@@ -63,7 +64,7 @@
                     >
                         Over ons</a
                     >
-                </li> -->
+                </li>
                 <li class="flex items-center">
                     <a
                         href="{{ route('contact') }}"

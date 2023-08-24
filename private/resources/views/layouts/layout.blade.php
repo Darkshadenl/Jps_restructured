@@ -18,6 +18,7 @@
 
 
     @yield('details')
+{{--    @include('cookie-consent::index')--}}
 
 </head>
 
