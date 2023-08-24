@@ -43,7 +43,6 @@
                         <a role="button"
                            href="{{ route('offer') }}"
                            class=" flex scale-110
-{{--                        rounded-full--}}
                                transition transform duration-500 ease-in-out
                                p-4 bg-red-600 text-white text-sm px-4 py-2 font-bold rounded-lg shadow-xs cursor-pointer
                               hover:bg-red-700 hover:text-gray-100 hover:-translate-y-1 hover:scale-110">

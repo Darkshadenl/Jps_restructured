@@ -69,15 +69,23 @@
                                 <i
                                     class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
                                 ></i>
-                                Ergens in, Nederland
+                                Nuenen, Nederland
                             </div>
                             <div class="mb-2 text-gray-700 mt-10">
                                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
-                                >CEO - Manager
+                                >Eigenaar JPS Retail Services
                             </div>
                             <div class="mb-2 text-gray-700">
                                 <i class="fas fa-university mr-2 text-lg text-gray-500"></i
-                                >Hogeschool in Eindhoven
+                                >Hogeschool Eindhoven
+                            </div>
+                            <div class="mb-2 text-gray-700">
+                                <i class="fas fa-phone mr-2 text-lg text-gray-500"></i
+                                >06 51 18 83 22
+                            </div>
+                            <div class="mb-2 text-gray-700">
+                                <i class="fas fa-envelope mr-2 text-lg text-gray-500"></i
+                                ><a class="hover:bg-blue-400 p-1 bg-blue-200" href="mailto:info@jpsretail.nl">info@jpsretail.nl</a>
                             </div>
                         </div>
                         <div class="mt-10 py-10 border-t border-gray-300 text-center">

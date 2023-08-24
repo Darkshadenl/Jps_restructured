@@ -18,7 +18,7 @@
 
 
     @yield('details')
-    @include('cookie-consent::index')
+{{--    @include('cookie-consent::index')--}}
 
 </head>
 
