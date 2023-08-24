@@ -1,6 +1,7 @@
 name: Deploy Laravel Website
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -25,4 +26,13 @@ jobs:
         ignore: |
           *.git
           */**/*git*
-          public/
+          ./private/public/
+          ./private/storage/
+          ./private/docker/
+          ./private/database/
+          ./private/tests/
+
+
+
+
+      
