@@ -5,7 +5,6 @@
 /vendor/
 !/resources/views/vendor/
 !/resources/lang/vendor/
-!**/lang/vendor/cookie-consent/nl
 .env
 .env.backup
 .phpunit.result.cache
