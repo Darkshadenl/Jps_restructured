@@ -1,0 +1,38 @@
+name: Deploy Laravel Website
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: SFTP Upload private
+      uses: Dylan700/sftp-upload-action@v1.2.0
+      with:
+        dry-run: 'true'
+        server: ${{ secrets.SFTP_SERVER }}
+        username: ${{ secrets.SFTP_USERNAME }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        uploads: |
+          ./private => ./jpsretailnl/private
+        ignore: |
+          *.git
+          */**/*git*
+          ./private/public/
+          ./private/storage/
+          ./private/docker/
+          ./private/database/
+          ./private/tests/
+
+
+
+
+      
