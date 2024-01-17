@@ -13,9 +13,9 @@ for file in $staged_files; do
 done
 
 # Upload the filtered files to the sftp remote server
-HOST=jpsretail.nl
-USER=jpsretail.nl
-PASSWORD=PASSWORD
+HOST=
+USER=
+PASSWORD=
 
 cd private || exit
 
